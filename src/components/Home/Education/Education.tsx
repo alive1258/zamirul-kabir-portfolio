@@ -23,7 +23,7 @@ const Education = async () => {
       next: {
         revalidate: 30,
       },
-    }
+    },
   );
   const data: MyEducation[] = await res.json();
 

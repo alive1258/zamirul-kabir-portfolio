@@ -494,7 +494,7 @@ const Contact = () => {
                       className="group/info flex items-center gap-3 sm:gap-4 p-3 sm:p-4 rounded-lg sm:rounded-xl bg-white/5 hover:bg-white/10 transition-all duration-300"
                     >
                       <div
-                        className={`w-10 h-10 sm:w-12 sm:h-12 rounded-lg bg-gradient-to-br ${info.color}/20 border border-white/10 flex items-center justify-center group-hover/info:scale-110 transition-transform duration-300`}
+                        className={`w-10 h-10 sm:w-12 sm:h-12 rounded-lg text-white bg-gradient-to-br ${info.color}/20 border border-white/10 flex items-center justify-center group-hover/info:scale-110 transition-transform duration-300`}
                       >
                         {info.icon}
                       </div>

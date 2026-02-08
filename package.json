@@ -12,7 +12,7 @@
     "@emailjs/browser": "^4.3.3",
     "@reduxjs/toolkit": "^2.2.4",
     "clsx": "^2.1.1",
-    "framer-motion": "^11.1.9",
+    "framer-motion": "^11.18.2",
     "jodit-react": "^4.1.2",
     "lottie-react": "^2.4.0",
     "lucide-react": "^0.556.0",

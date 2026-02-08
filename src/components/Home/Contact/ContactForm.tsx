@@ -339,7 +339,7 @@ const ContactForm = () => {
         <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-3 md:gap-4">
           {/* Name Field */}
           <div className="relative group/input md:col-span-1">
-            <div className="absolute -inset-0.5 bg-gradient-to-r from-[#34a578]/20 via-transparent to-cyan-500/20 rounded-lg blur opacity-0 group-hover/input:opacity-100 transition-opacity duration-500"></div>
+            <div className="absolute -inset-0.5 rounded-lg blur opacity-0 group-hover/input:opacity-100 transition-opacity duration-500"></div>
             <div>
               <div className="flex items-center justify-between mb-1 md:mb-2">
                 <label className="block text-xs md:text-sm text-gray-400">
@@ -454,8 +454,8 @@ const ContactForm = () => {
                   errors.phone
                     ? "border-red-500/50 focus:border-red-500 focus:ring-2 focus:ring-red-500/20"
                     : touchedFields.phone && !errors.phone
-                    ? "border-[#45d19c]/50 focus:border-[#45d19c] focus:ring-2 focus:ring-[#45d19c]/20"
-                    : "border-gray-600/30 focus:border-[#45d19c]/50 focus:ring-2 focus:ring-[#45d19c]/20"
+                    ? ""
+                    : ""
                 } rounded-lg md:rounded-xl text-white placeholder-gray-500 focus:outline-none transition-all duration-300 relative z-10`}
                 placeholder="+1234567890"
               />
@@ -471,7 +471,7 @@ const ContactForm = () => {
 
         {/* Message Field */}
         <div className="relative group/input">
-          <div className="absolute -inset-0.5 bg-gradient-to-r from-[#34a578]/20 via-cyan-500/20 to-[#45d19c]/20 rounded-lg blur opacity-0 group-hover/input:opacity-100 transition-opacity duration-500"></div>
+          <div className="absolute -inset-0.5  rounded-lg blur opacity-0 group-hover/input:opacity-100 transition-opacity duration-500"></div>
           <div>
             <div className="flex items-center justify-between mb-1 md:mb-2">
               <label className="block text-xs md:text-sm text-gray-400">
@@ -505,8 +505,8 @@ const ContactForm = () => {
                 errors.message
                   ? "border-red-500/50 focus:border-red-500 focus:ring-2 focus:ring-red-500/20"
                   : touchedFields.message && !errors.message
-                  ? "border-[#34a578]/50 focus:border-[#34a578] focus:ring-2 focus:ring-[#34a578]/20"
-                  : "border-gray-600/30 focus:border-[#34a578]/50 focus:ring-2 focus:ring-[#34a578]/20"
+                  ? ""
+                  : ""
               } rounded-lg md:rounded-xl text-white placeholder-gray-500 focus:outline-none transition-all duration-300 resize-none relative z-10`}
               placeholder="Tell me about your project, timeline, and requirements..."
             ></textarea>
