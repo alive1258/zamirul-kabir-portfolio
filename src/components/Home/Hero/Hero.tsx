@@ -27,7 +27,7 @@ const HeroSkeleton = dynamic(() => import("./HeroSkeleton"), {
 });
 
 const Hero = () => {
-  const zamirulPic = "/assets/image/zamirulPic.png";
+  const zamirulPic = "/assets/image/zks.png";
   const [isLoading, setIsLoading] = useState(true);
   const [contentLoaded, setContentLoaded] = useState(false);
 
