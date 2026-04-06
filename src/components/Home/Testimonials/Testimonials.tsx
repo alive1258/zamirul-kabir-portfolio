@@ -106,8 +106,8 @@ export default function FeedTestimonials() {
   const toggleExpand = (id: number) => {
     setFeedItems((items) =>
       items.map((item) =>
-        item.id === id ? { ...item, isExpanded: !item.isExpanded } : item
-      )
+        item.id === id ? { ...item, isExpanded: !item.isExpanded } : item,
+      ),
     );
   };
 
@@ -362,7 +362,7 @@ export default function FeedTestimonials() {
               color: "from-emerald-500/20 to-green-500/20",
             },
             {
-              value: "2.5+",
+              value: "3",
               label: "Years Experience",
               icon: "⚡",
               color: "from-purple-500/20 to-pink-500/20",

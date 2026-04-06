@@ -11,7 +11,7 @@ interface Stat {
 
 const stats: Stat[] = [
   {
-    value: "2.5+",
+    value: "3",
     label: "Years Experience",
     icon: "📅",
     gradient: "from-[#34a578] to-cyan-400",

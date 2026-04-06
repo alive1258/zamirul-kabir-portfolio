@@ -165,9 +165,7 @@ const Hero = () => {
                         Frontend-Focused Full-Stack Engineer
                       </span>{" "}
                       with{" "}
-                      <span className="font-bold text-[#34a578]">
-                        2.5+ years
-                      </span>{" "}
+                      <span className="font-bold text-[#34a578]">3 years</span>{" "}
                       of experience, I specialize in transforming complex
                       requirements into elegant, performant solutions.
                     </p>
@@ -244,7 +242,7 @@ const Hero = () => {
                         <div className="grid grid-cols-2 sm:grid-cols-4 gap-3 sm:gap-4">
                           {[
                             {
-                              value: "2.5+",
+                              value: "3",
                               label: "Years",
                               color: "text-[#34a578]",
                             },

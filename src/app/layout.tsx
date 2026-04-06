@@ -13,7 +13,7 @@ export const metadata: Metadata = {
     template: "%s | Zamirul Kabir",
   },
   description:
-    "Zamirul Kabir is a Full-Stack Web Developer with 2.5+ years of experience in JavaScript, TypeScript, React, Next.js, Node.js, NestJS, MongoDB, PostgreSQL, and MySQL. He builds scalable, high-performance web applications.",
+    "Zamirul Kabir is a Full-Stack Web Developer with 3 years of experience in JavaScript, TypeScript, React, Next.js, Node.js, NestJS, MongoDB, PostgreSQL, and MySQL. He builds scalable, high-performance web applications.",
   keywords: [
     "Zamirul Kabir",
     "Full Stack Developer",
