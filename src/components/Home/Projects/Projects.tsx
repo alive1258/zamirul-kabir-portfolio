@@ -1,12 +1,10 @@
 "use client";
 import React, { useState } from "react";
 import ProjectCard from "./ProjectCard";
-import Link from "next/link";
 import SlideUp from "@/components/Shared/animations/SlideUp";
 import { projectCategories, projectsData } from "../../../../utils/projectData";
 import { RiArrowRightLine } from "react-icons/ri";
 import BadgeLabel from "@/components/Shared/BadgeLabel/BadgeLabel";
-import Button from "@/components/Shared/Button/Button";
 
 const Projects = () => {
   const [selectedCategory, setSelectedCategory] = useState("All");
@@ -17,7 +15,7 @@ const Projects = () => {
     selectedCategory === "All"
       ? projectsData
       : projectsData.filter(
-          (item) => item.category.includes(selectedCategory) // Use includes for array
+          (item) => item.category.includes(selectedCategory), // Use includes for array
         );
 
   // Limit display to 5 projects unless showAll is true

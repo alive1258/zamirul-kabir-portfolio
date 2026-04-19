@@ -90,13 +90,6 @@ const ProjectCard: React.FC<ProjectCardProps> = ({ item, idx, delay = 0 }) => {
               <div className="flex items-center gap-x-4 mb-6">
                 <div className="relative group/logo">
                   <div className="absolute -inset-2 bg-gradient-to-r from-[#3B82F6]/20 to-transparent rounded-full blur-sm opacity-0 group-hover/logo:opacity-100 transition-opacity duration-300"></div>
-                  <Image
-                    className="relative z-10 md:size-10 size-7 rounded-lg"
-                    src={item?.logo}
-                    alt={item?.company}
-                    height={40}
-                    width={40}
-                  />
                 </div>
                 <div>
                   <h4 className="text-gray-200 md:text-2xl text-[20px] font-satoshi font-bold">

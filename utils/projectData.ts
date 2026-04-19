@@ -20,18 +20,81 @@ export interface Project {
   metrics: Record<string, string | number>;
 }
 
-export const projectCategories = [
-  "All",
-  "Full Stack",
-  "Frontend",
-  "Backend",
-  "E-commerce",
-  "Dashboard",
-];
+export const projectCategories = ["All", "Full Stack", "Frontend", "Dashboard"];
 
 export const projectsData: Project[] = [
   {
     id: "1",
+    name: "Solvex Agency Website",
+    image: "/assets/projects/solvex.png",
+    category: ["Full Stack"],
+    server_github_link:
+      "https://github.com/alive1258/agency-website-nest.js-backend",
+    github_link: "https://github.com/alive1258/agency-Website",
+    live_link: "https://solvex-website-flame.vercel.app/",
+    description:
+      "A high-performance, scalable agency website built with Next.js (SSR & SSG) and NestJS backend. Designed for enterprise-level scalability, SEO optimization, and secure role-based architecture.",
+    tags: [
+      "Next.js",
+      "TypeScript",
+      "NestJS",
+      "Node.js",
+      "PostgreSQL",
+      "Redux",
+      "Tailwind CSS",
+      "Framer Motion",
+      "JWT",
+      "Swagger",
+    ],
+    company: "Solvex Agency",
+    logo: "/assets/projects/solvex-logo.png",
+    featured: true,
+    tech_stack: [
+      "Next.js (SSR & SSG)",
+      "NestJS",
+      "Node.js",
+      "TypeScript",
+      "PostgreSQL",
+      "Redux Toolkit",
+      "Tailwind CSS",
+      "Framer Motion",
+      "JWT Authentication",
+      "Swagger (OpenAPI)",
+      "TypeORM / Prisma",
+    ],
+    role: "Full Stack Developer",
+    duration: "2 months",
+    key_features: [
+      "SSR & SSG optimized architecture for SEO",
+      "Secure authentication (JWT, OTP, Email verification)",
+      "Role-Based Access Control (RBAC)",
+      "Scalable REST API with NestJS",
+      "Advanced search, filtering, pagination",
+      "Payment gateway integration",
+      "Swagger API documentation",
+    ],
+    challenges: [
+      "Designing scalable RBAC system",
+      "Optimizing SSR/SSG performance",
+      "Building secure authentication flow",
+      "Managing complex backend architecture",
+    ],
+    achievements: [
+      "Improved SEO and page speed significantly",
+      "Built enterprise-level RBAC system",
+      "Delivered scalable full-stack architecture",
+    ],
+    metrics: {
+      pagespeed_score: 99,
+      seo_score: 100,
+      accessibility_score: 98,
+      api_response_time: "120ms",
+      performance_boost: "70%",
+    },
+  },
+
+  {
+    id: "2",
     name: "Global Academia - Education Consultants Platform",
     image: "/assets/projects/global-academia.png",
     category: ["Frontend"],
@@ -93,7 +156,7 @@ export const projectsData: Project[] = [
     },
   },
   {
-    id: "2",
+    id: "3",
     name: "Smart Task Manager Dashboard",
     image: "/assets/projects/dahsboard1.png",
     category: ["Full Stack", "Dashboard"],
@@ -164,7 +227,7 @@ export const projectsData: Project[] = [
     },
   },
   {
-    id: "3",
+    id: "4",
     name: "BD Food Flow - Disaster Relief Platform",
     image: "/assets/projects/bd-food-flow.png",
     category: ["Full Stack"],
@@ -238,7 +301,7 @@ export const projectsData: Project[] = [
     },
   },
   {
-    id: "4",
+    id: "5",
     name: "Health Care Hospital Management System",
     image: "/assets/projects/health-care.png",
     server_github_link: "",
