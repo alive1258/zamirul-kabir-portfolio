@@ -162,7 +162,7 @@ const Hero = () => {
                     <p className="text-sm sm:text-base md:text-lg leading-relaxed text-gray-300 mb-4 sm:mb-6 group-hover:text-white/90 transition-colors duration-300">
                       As a dedicated{" "}
                       <span className="font-bold text-white group-hover:text-[#34a578] transition-colors duration-300">
-                        Frontend-Focused Full-Stack Engineer
+                        Full-Stack Developer
                       </span>{" "}
                       with{" "}
                       <span className="font-bold text-[#34a578]">3 years</span>{" "}

@@ -20,14 +20,6 @@ const EducationCard: React.FC<MyEducationCardProps> = ({ item, delay = 0 }) => {
           <div className="flex-1">
             {/* Main card with glass effect */}
             <div className="relative p-2 rounded-2xl bg-gradient-to-br from-white/5 to-white/[0.02] backdrop-blur-sm border border-white/10 group-hover:border-[#34a578]/40 transition-all duration-500 group-hover:scale-[1.02]">
-              {/* Date badge with icon */}
-              <div className="inline-flex items-center gap-3 px-5 py-2.5 mb-6 bg-gradient-to-r from-[#34a578]/10 to-transparent rounded-full border border-[#34a578]/20 group-hover:border-[#34a578]/40 transition-colors duration-300">
-                <BiCalendar className="text-[#34a578]" size={18} />
-                <span className="text-sm font-semibold text-gray-300 group-hover:text-white transition-colors duration-300">
-                  {item?.date}
-                </span>
-              </div>
-
               {/* Certificate/Degree with animated underline */}
               <div className="mb-4">
                 <h1 className="text-xl font-bold text-white mb-3 group-hover:text-transparent group-hover:bg-gradient-to-r group-hover:from-white group-hover:via-gray-200 group-hover:to-white group-hover:bg-clip-text transition-all duration-500">
