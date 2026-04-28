@@ -25,6 +25,90 @@ export const projectCategories = ["All", "Full Stack", "Frontend", "Dashboard"];
 export const projectsData: Project[] = [
   {
     id: "1",
+    name: "Tizara ERP",
+    image: "/assets/projects/tizara.png",
+    category: ["Full Stack"],
+    server_github_link: "",
+    github_link: "",
+    live_link: "https://tizara.asianitinc.com/bn",
+    description:
+      "A full-featured, enterprise-grade ERP system designed to streamline and automate business operations across sales, inventory, purchase , warehouse management, finance, and reporting. Built with a scalable, modular architecture, real-time data processing, and secure role-based access control.",
+
+    tags: [
+      "NestJS",
+      "Next.js",
+      "TypeScript",
+      "PostgreSQL",
+      "Redis",
+      "Redux",
+      "Node.js",
+      "RBAC",
+      "REST API",
+      "WebSockets",
+    ],
+
+    company: "Tizara ERP",
+    logo: "/assets/projects/tizara-logo.png",
+    featured: true,
+
+    tech_stack: [
+      "NestJS",
+      "Next.js",
+      "Node.js",
+      "TypeScript",
+      "PostgreSQL",
+      "Redis (Caching & Session)",
+      "Redux Toolkit",
+      "WebSockets (Real-time updates)",
+      "JWT Authentication",
+      "Prisma / TypeORM",
+      "Docker (Deployment)",
+    ],
+
+    role: "Full Stack Developer & System Architect",
+    duration: "2 Years",
+
+    key_features: [
+      "Complete ERP modules: Sales, Inventory, Purchase, Warehouse, Finance",
+      "Advanced warehouse and stock management system",
+      "Procurement and supplier management workflow",
+      "Real-time inventory tracking and stock updates",
+      "Role-Based Access Control (RBAC) for multi-user environments",
+      "Scalable REST API architecture with NestJS",
+      "Redis caching for performance optimization",
+      "Event-driven architecture for high-volume transactions",
+      "Custom reporting and analytics dashboard",
+      "Secure authentication (JWT-based)",
+      "Multi-tenant ready system design",
+    ],
+
+    challenges: [
+      "Designing scalable and modular ERP architecture",
+      "Handling complex business logic across multiple modules",
+      "Optimizing database queries for large-scale transactions",
+      "Ensuring data consistency in real-time operations",
+      "Implementing efficient caching strategy using Redis",
+      "Managing fine-grained role-based permissions",
+    ],
+
+    achievements: [
+      "Built a scalable ERP system covering multiple business domains",
+      "Reduced API response time using Redis caching",
+      "Designed modular architecture for easy scalability",
+      "Handled high-volume concurrent user requests",
+      "Delivered production-ready enterprise-grade solution",
+    ],
+
+    metrics: {
+      api_response_time: "80-150ms",
+      performance_boost: "60%",
+      concurrent_users_supported: "1000+",
+      query_optimization: "50% faster",
+      uptime: "99.9%",
+    },
+  },
+  {
+    id: "2",
     name: "Solvex Agency Website",
     image: "/assets/projects/solvex.png",
     category: ["Full Stack"],
@@ -62,7 +146,7 @@ export const projectsData: Project[] = [
       "Swagger (OpenAPI)",
       "TypeORM / Prisma",
     ],
-    role: "Full Stack Developer",
+    role: "Full Stack Developer ",
     duration: "2 months",
     key_features: [
       "SSR & SSG optimized architecture for SEO",
@@ -94,7 +178,7 @@ export const projectsData: Project[] = [
   },
 
   {
-    id: "2",
+    id: "3",
     name: "Global Academia - Education Consultants Platform",
     image: "/assets/projects/global-academia.png",
     category: ["Frontend"],
@@ -156,7 +240,7 @@ export const projectsData: Project[] = [
     },
   },
   {
-    id: "3",
+    id: "4",
     name: "Smart Task Manager Dashboard",
     image: "/assets/projects/dahsboard1.png",
     category: ["Full Stack", "Dashboard"],
@@ -227,7 +311,7 @@ export const projectsData: Project[] = [
     },
   },
   {
-    id: "4",
+    id: "5",
     name: "BD Food Flow - Disaster Relief Platform",
     image: "/assets/projects/bd-food-flow.png",
     category: ["Full Stack"],
@@ -301,7 +385,7 @@ export const projectsData: Project[] = [
     },
   },
   {
-    id: "5",
+    id: "6",
     name: "Health Care Hospital Management System",
     image: "/assets/projects/health-care.png",
     server_github_link: "",
